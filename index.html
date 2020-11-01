@@ -36,7 +36,7 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#8FBCFF">
         <link rel="stylesheet" href="common/normalize.css">
-        <link rel="stylesheet" href="common/fullpage.min.css">
+        <link rel="stylesheet" href="css/fullpage.min.css">
         <link rel="stylesheet" href="css/index.css">
 
         <!-- JS/jQuery 연결 -->
@@ -55,13 +55,23 @@
                 </h1>
                 <!-- call -->
                 <div class="call">
-                    <a href="#"></a>
+                    <a href="#">call</a>
+                </div>
+                <!-- mobile nav -->
+                <div class="mobile_nav">
+                    <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                    </div>
                 </div>
         </header>
 
         <!-- bark $ white mode -->
         <div class="mode">
-
+            <div class="mode_box">
+                <div class="mode_btn"></div>
+            </div>
         </div>
 
         <!-- mobile navigation -->
@@ -89,7 +99,7 @@
         <!-- main contents -->
         <div id="fullpage">
 
-                <!----- home (contents1) ----->
+                <!----- home (contents0) ----->
                 <div class="section active" id="section0">
                     <p class="main_txt">
                         Portfolio in<br>
@@ -98,132 +108,163 @@
                     </p>
                 </div>
             
-                <!----- ABOUT ME (contents2) ----->
+                <!----- ABOUT ME (contents1) ----->
                 <div class="section" id="section1">
                     <h2>about me<div id="oo"></div></h2>
                     <!----- ABOUT ME 페이지 이벤트 ----->
                     <div class="about_event">
                         <!-- slide1 img -->
                         <a href="#">
-                      <div class="slide" id="slide1">
-                        <div id="my_img"></div>
-                      </div>
+                            <div class="slide" id="slide1">
+                                <div class="m_box">
+                                    <div id="my_img"></div>
+                                    <div class="m_profile1">
+                                        <h3>김유진</h3>
+                                        <p><strong>Kim yoo-jin</strong> (1994.08.11~)</p>
+                                        <p>경기도 화성시 병점</p>
+                                        <p>2014.03<br>국제대학교</p>
+                                        <p>2020.10<br>더조은 컴퓨터학원 웹퍼블리셔  양성과정 수료</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
                         </a>
 
                         <!-- slide2 profile -->
                         <a href="#">
-                      <div class="slide" id="slide2">
-                          <div class="profile">
-                            <h3>김유진</h3>
-                            <p><strong>Kim yoo-jin</strong> (1994.08.11~)</p>
-                            <p>경기도 화성시 병점</p>
-                            <p>2014.03<br>국제대학교</p>
-                            <p>2020.10<br>더조은 컴퓨터학원 웹퍼블리셔 양성과정 수료</p>
-                            <p>안녕하세요.<br>
-                                도전하는 신입 웹퍼블리셔 김유진입니다.<br>
-                                쉽고,재밌고,남다르게 표현하는걸 좋아하고<br>
-                                탄탄한 코드위에 감각적인 ui를 그려냅니다.<br>
-                                css와 javascript를 활용한 동적모션을 좋아합니다.<br>
-                                좋아하는일을 즐기면서 잘하는것, 끈임없는 도전<br>
-                                제가 꿈꾸는 저의 모습입니다:)
-                            </p>
-                          </div>
-                      </div>
+                            <div class="slide" id="slide2">
+                                <div class="m_profile2">
+                                    <p>안녕하세요.<br>
+                                        도전하는 신입 웹퍼블리셔 김유진입니다.<br>
+                                        쉽고,재밌고,남다르게<br>표현하는걸 좋아하고<br>
+                                        탄탄한 코드위에<br>감각적인 ui를 그려냅니다.<br>
+                                        css와 javascript를 활용한<br>동적모션을 좋아합니다.<br>
+                                        좋아하는일을 즐기면서 잘하는것,<br> 끈임없는 도전<br>
+                                        제가 꿈꾸는 저의 모습입니다:)
+                                    </p>
+                                </div>
+                                <div class="profile">
+                                    <h3>김유진</h3>
+                                    <p><strong>Kim yoo-jin</strong> (1994.      08.11~)</p>
+                                    <p>경기도 화성시 병점</p>
+                                    <p>2014.03<br>국제대학교</p>
+                                    <p>2020.10<br>더조은 컴퓨터학원 웹퍼블리셔 양성과정 수료</p>
+                                    <p>안녕하세요.<br>
+                                        도전하는 신입 웹퍼블리셔 김유진입니다.<br>
+                                        쉽고,재밌고,남다르게 표현하는걸 좋아하고<br>
+                                        탄탄한 코드위에 감각적인 ui를 그려냅니다.<br>
+                                        css와 javascript를 활용한 동적모션을 좋아합니다.<br>
+                                        좋아하는일을 즐기면서 잘하는것, 끈임없는 도전<br>
+                                        제가 꿈꾸는 저의 모습입니다:)
+                                    </p>
+                                </div>
+                            </div>
                         </a>
 
                         <!-- slide3 programe -->
                         <a href="#">
-                      <div class="slide" id="slide3">
-                          <div class="programe">
-                              <h3>program ability</h3>
-                              <ul class="programbox">
-                                  <!-- section1 -->
-                                  <li class="box">
-                                      <ul>
-                                          <!-- publilshing  -->
-                                          <li>
-                                              <h4>publilshing</h4>
-                                              <div id="graph"></div>
-                                          </li>
-                                          <!-- publilshing txt -->
-                                          <li>
-                                              <ul class="box_txt">
+                            <div class="slide" id="slide3">
+                                <div class="programe">
+                                    <h3>program ability</h3>
+                                    <ul class="programbox">
+                                        <!-- section1 -->
+                                        <li class="box">
+                                            <ul>
+                                                <!-- publilshing  -->
                                                 <li>
-                                                    <p><strong>html5</strong></p>
-                                                    <p>웹표준에 맞는 마크업을 구현합니다.<br>
-                                                    문서를 알맞게 구조화 할수있습니다.</p>
+                                                    <h4>publilshing</h4>
+                                                    <div id="graph"></div>
                                                 </li>
+                                                <!-- publilshing txt -->
                                                 <li>
-                                                    <p><strong>css3</strong></p>
-                                                    <p>유지보수 용이한 스타일 가이드를<br>
-                                                    만들기 위해 노력합니다.</p>
+                                                    <ul class="box_txt">
+                                                      <li>
+                                                          <p><strong>html5</strong></p>
+                                                          <p>웹표준에 맞는 마크업을 구현합니다.<br>
+                                                          문서를 알맞게 구조화 할수있습니다.</p>
+                                                      </li>
+                                                      <li>
+                                                          <p><strong>css3</strong></p>
+                                                          <p>유지보수 용이한 스타일 가이드를<br>
+                                                          만들기 위해 노력합니다.</p>
+                                                      </li>
+                                                      <li>
+                                                          <p><strong>javascript,<br>jquery</strong></p>
+                                                          <p>메소드를 이용한 컨텐츠의<br>
+                                                          동적구현이 가능합니다.</p>
+                                                      </li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <p><strong>javascript,<br>jquery</strong></p>
-                                                    <p>메소드를 이용한 컨텐츠의<br>
-                                                    동적구현이 가능합니다.</p>
-                                                </li>
-                                              </ul>
-                                          </li>
-                                      </ul>
-                                  </li>
-                                  <!-- section2 -->
-                                  <li class="box">
-                                    <ul>
-                                        <!-- design  -->
-                                        <li>
-                                            <h4>design</h4>
-                                            <div id="graph"></div>
-                                        </li>
-                                        <!-- design txt -->
-                                        <li>
-                                            <ul class="box_txt">
-                                              <li>
-                                                  <p><strong>xd</strong></p>
-                                                  <p>와이어프레임,프로토타입,디자인구현이<br>가능합니다.</p>
-                                              </li>
-                                              <li>
-                                                  <p><strong>photoshop,<br>illustator</strong></p>
-                                                  <p>레이아웃을 구성하고 디자인이 가능하며,<br>구체적으로 구현가능합니다.</p>
-                                              </li>
                                             </ul>
                                         </li>
+                                        <!-- section2 -->
+                                        <li class="box">
+                                          <ul>
+                                              <!-- design  -->
+                                              <li>
+                                                  <h4>design</h4>
+                                                  <div id="graph"></div>
+                                              </li>
+                                              <!-- design txt -->
+                                              <li>
+                                                  <ul class="box_txt">
+                                                    <li>
+                                                        <p><strong>xd</strong></p>
+                                                        <p>와이어프레임,프로토타입,디자인구현이<br>가능합니다.      </p>
+                                                    </li>
+                                                    <li>
+                                                        <p><strong>photoshop,<br>illustator</strong></p>
+                                                        <p>레이아웃을 구성하고 디자인이 가능하며,   <br>구체적으로 구현가능합니다.</p>
+                                                    </li>
+                                                  </ul>
+                                              </li>
+                                          </ul>
+                                        </li>
                                     </ul>
-                                  </li>
-                              </ul>
-                          </div>
-                      </div>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
                 
-                <!-- PROJECTS (contents3) -->           
+                <!-- PROJECTS (contents2) -->           
                 <div class="section" id="section2">
                     <h2>projects<div id="oo"></div></h2>
-                  <!-- PROJECTS 스크롤 -->
-                  <div class="scrollable-element">
-                    <div class="box1">
-                        <a href="projects/projects_0.html"></a>
+                    <!-- PROJECTS 스크롤 -->
+                    <div class="scrollable-element">
+                        <div class="box box1">
+                            <a href="projects/projects_0.html"></a>
+                        </div>
+                        <div class="box box2">
+                            <a href="projects/projects_1.html"></a>
+                        </div>
+                        <div class="box box3">
+                            <a href="#"></a>
+                        </div>
+                        <div class="box box4">
+                            <a href="#"></a>
+                        </div>
+                        <div class="box box5">
+                            <a href="#"></a>
+                        </div>
                     </div>
-                    <div class="box2">
-                        <a href="projects/projects_1.html"></a>
-                    </div>
-                    <div class="box3">
-                        <a href="#"></a>
-                    </div>
-                    <div class="box4">
-                        <a href="#"></a>
-                    </div>
-                    <div class="box5">
-                        <a href="#"></a>
-                    </div>
-                  </div>
                 </div>
             
-                <!-- LET'S TALK (contents4) -->
+                <!-- LET'S TALK (contents3) -->
                 <div class="section" id="section3">
                     <h2>let's talk<div id="oo"></div></h2>
-                    <div class="talk_call"></div>
+                    <div class="call_box">
+                        <ul class="talk_call">
+                            <li>
+                                <div class="call_img" id="call1"></div>
+                                <p>dbwls_0811@naver.com</p>
+                            </li>
+                            <li>
+                                <div class="call_img" id="call2"></div>
+                                <p>010-8253-7035</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
         </div>
     </body>
