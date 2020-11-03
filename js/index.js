@@ -11,11 +11,10 @@ var myFullpage = new fullpage('#fullpage', {
 $('.mode_box').on('click', function(){
   //.addClass()와 .removeClass()가 순차적으로 일어나는 매서드
   $('body').toggleClass('active');
+  $('#header').toggleClass('active');
   $('.mobile_menu').toggleClass('active');
   $('.mode_box').toggleClass('active');
   $('.mode_btn').toggleClass('active');
-  
-  // $('.mobile_menu.show').toggleClass('active');
   $('.mobile_nav .line-menu').toggleClass('active');
   $('.fp-controlArrow.fp-prev').toggleClass('active');
   $('.fp-controlArrow.fp-next').toggleClass('active');
@@ -34,17 +33,15 @@ $('.mode_box').on('click', function(){
 var wrapperMenu = document.querySelector('.wrapper-menu');
 
 wrapperMenu.addEventListener('click', function () {
-    const style = $('header').hasClass('active');
+    const style = $('header h1').hasClass('active');
 
     if (style == 0) {
         wrapperMenu.classList.add('open');
-        $('header').addClass('active');
         $('header h1').addClass('active');
         $('.mobile_menu').animate({ right: '0%' }, 1000, 'easeOutCubic').addClass('show');
     } else {
         wrapperMenu.classList.remove('open');
         $('.mobile_menu').animate({ right: '-100%' }, 1000, 'easeOutCubic').removeClass('show');
-        $('header').removeClass('active');
         $('header h1').removeClass('active');
         
     }
