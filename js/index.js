@@ -52,5 +52,4 @@ $('.mobile_menu a').on('click', function(){
     $('#call2').toggleClass('active');
     $('#call3').toggleClass('active');
   });
-
 });
