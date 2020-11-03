@@ -99,12 +99,12 @@ a {color: inherit;text-decoration: none;}
         #oo {
             background-color: #1D77FF;
             width: 9px; height: 9px;
-            margin-top: 5.4%; margin-left: 4px;
+            margin-top: 4%; margin-left: 4px;
             border-radius: 50%;
         }
         /* contents0 - home */
-        .main_txt {width: 77%;
-            font-size: 3em; font-weight: 900;
+        .main_txt {width: 78%;
+            font-size: 2.8em; font-weight: 900;
             line-height: 1.2em;
             margin: 0 auto;
             position: relative;
@@ -113,11 +113,9 @@ a {color: inherit;text-decoration: none;}
             background-color: #1D77FF;
             width: 11px; height: 11px;
             position: absolute;
-            right: 13.5%;
-            bottom: 42%;
+            right: 19%;
+            bottom: 42.5%;
             margin-left: 5px;
-            /* margin-top: 5.4%; margin-left: 4px;
-            border-radius: 50%; */
         }
         /* contents1 - ABOUT ME */
             /* 페이지 넥스트 이벤트 */
