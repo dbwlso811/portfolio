@@ -16,6 +16,7 @@ a {color: inherit;text-decoration: none;}
             background-image: url(../images/logo.png);
             background-size: contain;
             background-repeat: no-repeat;
+            background-size: cover cover;
         }
         h1 a {display: block;width: 100%; height: 100%;}
         /* call */
@@ -103,20 +104,22 @@ a {color: inherit;text-decoration: none;}
             border-radius: 50%;
         }
         /* contents0 - home */
-        .main_txt {width: 78%;
-            font-size: 2.8em; font-weight: 900;
+        .section0_main {width: 78%; height: 100vh; margin: 0 auto;display: flex; align-items: center;}
+        .main_txt {width: 100%;
+            font-size: 12.5vw; font-weight: 900;
             line-height: 1.2em;
-            margin: 0 auto;
+            /* margin: 0 auto; */
             position: relative;
+            text-align: center;
         }
-        #section0 #oo {
+        /* #section0 #oo {
             background-color: #1D77FF;
             width: 11px; height: 11px;
             position: absolute;
             right: 19%;
             bottom: 42.5%;
             margin-left: 5px;
-        }
+        } */
         /* contents1 - ABOUT ME */
             /* 페이지 넥스트 이벤트 */
             .about_event {width: 90%; height: 80vh;
@@ -169,7 +172,7 @@ a {color: inherit;text-decoration: none;}
                     /* slide2 profile */
                     .profile {display: none;}
                     .m_profile2 {width: 80%; height: 100%; text-align: center;margin: 0 auto;
-                        margin-top: 50%;
+                        /* margin-top: 50%; */
                         line-height: 2em; display: flex;}
                     .m_profile2 > p {width: 100%; height: 60%;}
                     /* slide3 programe */
@@ -284,16 +287,16 @@ a {color: inherit;text-decoration: none;}
             margin-top: 2.5%; margin-left: 5px;
         }
         /* contents0 - home */
-        .main_txt {width: 78%;
+        .main_txt {width: 100%;
             font-size: 5em;
             line-height: 1.3em;
         }
-        #section0 #oo {
+        /* #section0 #oo {
             width: 16px; height: 16px;
             right: 29%;
             bottom: 38%;
             margin-left: 7px;
-        }
+        } */
         /* contents1 - ABOUT ME */
             /* 페이지 넥스트 이벤트 */
             .about_event { height: 79vh;}
@@ -302,7 +305,7 @@ a {color: inherit;text-decoration: none;}
                     .m_profile1 {margin-top: 15%;font-size: 1.5em;}
                     /* slide2 profile */
                     .m_profile2 {
-                        margin-top: 20%;
+                        /* margin-top: 20%; */
                         font-size: 1.5em;}
                     /* slide3 programe */
                     .programe {height: 100%;font-size: 1.5em;}
@@ -325,9 +328,9 @@ a {color: inherit;text-decoration: none;}
     /*** Mobile header ***/
     header {height: 12%;}
         /* logo */
-        h1 {width: 70px; height: 50px;}
+        h1 {width: 70px; height: 50px;background-image: url(../images/w_logo.png);}
         /* call */
-        .call {display: flex; width: 40px; height: 40px; background-color: #1D77FF;}
+        .call {display: flex; width: 40px; height: 40px; background-color: #1D77FF; background-image: url(../images/w_feather-call.png);background-repeat: no-repeat; background-size: cover;margin-right: 4%;}
     /** menu icon **/
     .mobile_nav {display: none;}
     /** pc navigation **/
@@ -344,20 +347,35 @@ a {color: inherit;text-decoration: none;}
     }
     nav.on {width: 90%;}
     nav #gnb {
-        background-color: #8FBCFF;
-        width: 100%; height: 75vh;
+        background-color: #FFF;
+        width: 100%; height: 65vh;
         border-radius: 10px; display: flex;
         justify-content: center;
         position: relative;
+        box-shadow: 2px 3px 5px rgba(29,29,29,.2);
     }
+    nav .toggleMenu {display: none;margin: 0 auto;}
+    nav #gnb h5 {
+      transform: rotate(-90deg) translateX(30px);
+      font-size: 20px;
+      margin: 0;
+      position: absolute;
+      bottom:0;
+    }
+    nav.on #gnb {background-position: 99% 10px;text-align: center;}
+    nav.on #gnb h5 {right: 0;}
+    nav.on .toggleMenu {display: block;padding-top:100px}
+    nav .toggleMenu a {display: block;font-weight: bold;font-size: 50px;    line-height: 100px;text-transform: capitalize;}
+    nav .toggleMenu a:hover {color: #1D77FF;}
     /*  */
     /*** pc nav ***/
-    .pc_nav {width: 30px; height: 30px; position: absolute; top: 10px;}
+    .pc_nav {width: 25px; height: 30px; position: absolute; top: 10px;}
+    nav.on .pc_nav {right: 2.5%;}
     /** pc icon **/
-    .pc_nav .pc-menu { width:20px; height:20px; display:flex; flex-direction:column; justify-content:space-between; cursor:pointer; transition:transform 330ms ease-out; position:relative; z-index:9999; }
+    .pc_nav .pc-menu { width:100%; height:20px; display:flex; flex-direction:column; justify-content:space-between; cursor:pointer; transition:transform 330ms ease-out; position:relative; z-index:9999; }
     .pc_nav .pc-menu.open { transform:rotate(-45deg); }
     
-    .pc_nav .line-menu { background-color:#1d1d1d; border-radius: 50px; width:100%; height:2px; }
+    .pc_nav .line-menu { background-color:#1d1d1d; border-radius: 50px; width:100%; height:3px; }
     /* dark mode */
     .pc_nav .line-menu.active {
         background-color: #fff;
@@ -379,16 +397,26 @@ a {color: inherit;text-decoration: none;}
         /* fullpage main text */
         #fullpage h2 {
             height: 15vh;
-            padding-top: 6vh;
+            width: 20vw;
+            /* height: 65vh; */
+            padding-top: 42.5vh;
+            justify-content: start;
+            /* margin: 0 auto; */
+            position: fixed;
+            left: 10%;
+            /* padding: 0; */
+            display: flex;
+            font-size: 3em;
         }
         #oo {
             width: 10px; height: 10px;
             margin-top: 2.5%; margin-left: 5px;
         }
         /* contents0 - home */
-        .main_txt {width: 78%;
+        .main_txt {width: 76%;
             font-size: 5em;
             line-height: 1.3em;
+            text-align: start;
         }
         #section0 #oo {
             width: 16px; height: 16px;
@@ -398,29 +426,51 @@ a {color: inherit;text-decoration: none;}
         }
         /* contents1 - ABOUT ME */
             /* 페이지 넥스트 이벤트 */
-            .about_event { height: 79vh;}
+            .about_event {
+                height: 100vh; width: 50vw;
+                margin: 0;
+                float: right;
+                margin-right: 4%;
+                align-items: center;
+                font-size: 0.8em;
+            }
+            .about_event > a {display: flex; height: 65vh;}
                     /* slide1 img */
-                    #my_img {height: 30%;background-position-y: 30%;}
-                    .m_profile1 {margin-top: 15%;font-size: 1.5em;}
+                    #my_img {height: 100%;background-position-y: -20%; background-size: 100%;}
+                    .m_profile1 {display: none;}
                     /* slide2 profile */
+                    .profile {display: flex;flex-direction: column;
+                    height: 25%; text-align: center;
+                    font-size: 1.5em;
+                    }
+                    .profile h3 {margin: 0; margin-bottom: 5px;}
+                    .profile p {margin: 0; font-family: 'Noto Sans KR',sans-serif; line-height: 1.5em; margin: 5px 0;}
+                    .profile p strong {font-family:"Montserrat-Bold",'Noto Sans KR',sans-serif;}
                     .m_profile2 {
-                        margin-top: 20%;
-                        font-size: 1.5em;}
+                        height: 75%;
+                        }
+                        .probr {display: none;}
                     /* slide3 programe */
                     .programe {height: 100%;font-size: 1.5em;}
                     .programe h3 {margin: 0;}
                     .programe h4 {margin: 15px auto; margin-top: 30px;}
                     .programe strong {font-size: 0.8em;}
-                    .programe strong br {display: none;}                 
+                    .programe strong br {display: none;}
+                    .publilshing {display: flex;}
+                    .design {display: flex;}
+                    .programe .box_txt {display: flex; flex-direction: column;}
+                    .programebox .box {height: 50%;}
+                    .programebox .box > ul > li {width: 50%;}            
         /* contents2 - PROJECTS */
             /* 스크롤 이벤트 */
-            .scrollable-element{height: 79vh;}
+            .scroll_listbox {height: 100vh;width: 50vw;margin: 0;margin-right: 4%; align-items: center;float: right;display: flex;}
+            .scrollable-element{height: 65vh; width: 100%; margin: 0 auto; display: flex;flex-direction: column;}
               .scrollable-element h5 {width: 76vw; font-size: 1.5em; margin: 20px auto;margin-top: 50px;}
-              .scrollable-element > div {height: 30%; width: 85%;}
+              .scrollable-element > div {height: 30vh; width: 85%;}
         /* contents1 - LET'S TALK */
-        .call_box {height: 79vh; }
-        /* .talk_call {padding-top: 10%;} */
-        .talk_call li { font-size: 1.5em;padding-top: 12%;}
+        .call_box {height: 100vh; width: 50%; float: right;align-items: center;display: flex; margin-right: 4%;}
+        .talk_call {height: 65vh; padding: 0;display: flex; margin: 0 auto; justify-content: space-between; flex-direction: column;}
+        .talk_call li { font-size: 1.5em;padding-top: 10%;}
 }
     /*** Mobile header ***/
         /* logo */
