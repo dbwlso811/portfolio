@@ -23,7 +23,7 @@ a {color: inherit;text-decoration: none;}
         .call {display: none;}
 
     /*** mode ***/
-    .mode {width: 100%; height: 7%; position: fixed; bottom: 0; z-index: 99; margin-left: 4%;}
+    .mode {width: 100%; height: 7%; position: fixed; bottom: 0; z-index: 999; margin-left: 4%;}
     .mode_box {width: 65px; height: 35px; background-color: #1D77FF;border-radius: 32.5px; position: relative;
         box-shadow: 2px 3px 5px rgba(29,29,29,.2);
         transition: all 500ms;
@@ -397,24 +397,24 @@ a {color: inherit;text-decoration: none;}
         /* fullpage main text */
         #fullpage h2 {
             height: 15vh;
-            width: 20vw;
+            width: 25vw;
             /* height: 65vh; */
             padding-top: 42.5vh;
             justify-content: start;
             /* margin: 0 auto; */
             position: fixed;
-            left: 10%;
+            left: 11.5%;
             /* padding: 0; */
             display: flex;
             font-size: 3em;
         }
         #oo {
             width: 10px; height: 10px;
-            margin-top: 2.5%; margin-left: 5px;
+            margin-top: 6.5%; margin-left: 8px;
         }
         /* contents0 - home */
         .main_txt {width: 76%;
-            font-size: 5em;
+            font-size: 6.5em;
             line-height: 1.3em;
             text-align: start;
         }
@@ -436,7 +436,7 @@ a {color: inherit;text-decoration: none;}
             }
             .about_event > a {display: flex; height: 65vh;}
                     /* slide1 img */
-                    #my_img {height: 100%;background-position-y: -20%; background-size: 100%;}
+                    #my_img {height: 65vh;background-position-y: -20%; background-size: 100%;}
                     .m_profile1 {display: none;}
                     /* slide2 profile */
                     .profile {display: flex;flex-direction: column;
@@ -451,25 +451,39 @@ a {color: inherit;text-decoration: none;}
                         }
                         .probr {display: none;}
                     /* slide3 programe */
-                    .programe {height: 100%;font-size: 1.5em;}
-                    .programe h3 {margin: 0;}
-                    .programe h4 {margin: 15px auto; margin-top: 30px;}
+                    .programe {height: 65vh;font-size: 1.5em;width: 85%;margin: 0 auto;}
+                    .programe p {margin: 0;line-height: 1.5em;}
+                    .programe h3 {margin: 0;height: 15%; font-size: 1.5em;}
+                    .programe h4 {margin: 0; margin-bottom: 15px;}
                     .programe strong {font-size: 0.8em;}
-                    .programe strong br {display: none;}
-                    .publilshing {display: flex;}
-                    .design {display: flex;}
-                    .programe .box_txt {display: flex; flex-direction: column;}
-                    .programebox .box {height: 50%;}
-                    .programebox .box > ul > li {width: 50%;}            
+                    .programe strong br {display: block;}
+                    /* .programebox {margin: 0;} */
+                    /* programe graph */
+                    .programe #graph {margin: 0;width: 72%;}
+                    .publilshing {display: flex; height: 100%;}
+                    .design {display: flex; height: 100%;}
+                    /* .design .box2 .box_txt {justify-content: start;} */
+                    .programe .box_txt {display: flex; flex-direction: column; height: 100%; justify-content: space-between;}
+                    .programe .box_txt li {display: flex;}
+                    .programe .box_txt li p:first-child {width: 25%;}
+                    .programe .programbox {text-align: start; height: 85%; display: flex; flex-direction: column; justify-content: space-between;}
+                    /* .programe .program_box {height: 48%;} */
+                    .programe .program_box:first-child {height: 58%;}
+                    .programe .program_box:last-child {height: 32%;}
+                    .program_box > ul > li {width: 50%;}
+                    .publilshing .box1 {width: 25%; text-align: start;}           
+                    .publilshing .box2 {width: 75%;}           
+                    .design .box1 {width: 25%; text-align: start;}           
+                    .design .box2 {width: 75%;}           
         /* contents2 - PROJECTS */
             /* 스크롤 이벤트 */
             .scroll_listbox {height: 100vh;width: 50vw;margin: 0;margin-right: 4%; align-items: center;float: right;display: flex;}
-            .scrollable-element{height: 65vh; width: 100%; margin: 0 auto; display: flex;flex-direction: column;}
-              .scrollable-element h5 {width: 76vw; font-size: 1.5em; margin: 20px auto;margin-top: 50px;}
-              .scrollable-element > div {height: 30vh; width: 85%;}
+            .scrollable-element{height: 66vh; width: 100%; margin: 0 auto; display: flex;flex-direction: column;}
+              .scrollable-element h5 {width: 98%; font-size: 1.5em; margin: 30px auto;margin-top: 50px;}
+              .scrollable-element > div {height: 30vh; width: 98%;}
         /* contents1 - LET'S TALK */
         .call_box {height: 100vh; width: 50%; float: right;align-items: center;display: flex; margin-right: 4%;}
-        .talk_call {height: 65vh; padding: 0;display: flex; margin: 0 auto; justify-content: space-between; flex-direction: column;}
+        .talk_call {height: 58vh; padding: 0;display: flex; margin: 0 auto; justify-content: space-between; flex-direction: column;}
         .talk_call li { font-size: 1.5em;padding-top: 10%;}
 }
     /*** Mobile header ***/
