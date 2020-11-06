@@ -36,11 +36,13 @@ $('.mobile_menu a').on('click', function(){
   $('header h1').removeClass('active');
 });
 
+
   // mode_btn
   $('.mode_box').on('click', function(){
     //.addClass()와 .removeClass()가 순차적으로 일어나는 매서드
     $('body').toggleClass('active');
     $('#header').toggleClass('active');
+    $('h1').toggleClass('active');
     $('.mobile_menu').toggleClass('active');
     $('.mode_box').toggleClass('active');
     $('.mode_btn').toggleClass('active');
