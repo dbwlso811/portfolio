@@ -29,10 +29,10 @@
         <link rel="stylesheet" href="../css/font.css">
         <!-- font-family: 'Montserrat-Bold','Montserrat-ExtraBold','Montserrat-Medium','Montserrat-Regular'; -->
         <!-- 파비콘 -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
         <link rel="manifest" href="../common/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -57,7 +57,7 @@
                     <a href="../index.html">김유진의 포트폴리오 입니다.</a>
                 </h1>
                 <!-- call -->
-                <div class="call">
+                <div class="call_icon">
                     <a href="#">call</a>
                 </div>
                 <!-- mobile nav -->
@@ -80,26 +80,37 @@
         <!-- mobile navigation -->
         <div class="mobile_menu">
                 <ul id="nav">
-                    <li class="nav_page1"><a href="../index.html/#section1">about_me</a></li>
-                    <li class="nav_page2"><a href="#section2">projects</a></li>
-                    <li class="nav_page3"><a href="#section3">let_talk</a></li>
+                    <li class="nav_page1"><a href="../index.html #section1">about_me</a></li>
+                    <li class="nav_page2"><a href="../index.html #section2">projects</a></li>
+                    <li class="nav_page3"><a href="../index.html #section3">let_talk</a></li>
                 </ul>
         </div>
 
         <!-- pc navigation -->
         <nav>
                 <div id="gnb">
+                    <div class="pc_nav">
+                        <div class="pc-menu">
+                            <div class="line-menu half start"></div>
+                            <div class="line-menu"></div>
+                            <div class="line-menu half end"></div>
+                        </div>
+                    </div>
                   <ul class="toggleMenu">
-                    <li><a href="#section1">about_me</a></li>
-                    <li><a href="#section2">projects</a></li>
-                    <li><a href="#section3">let_talk</a></li>
+                    <li><a href="../index.html #section1">about_me</a></li>
+                    <li><a href="../index.html #section2">projects</a></li>
+                    <li><a href="../index.html #section3">let_talk</a></li>
                   </ul>
                   <h5>MENU</h5>
                 </div>
         </nav>
+        <!-- scroll images -->
+        <div class="scroll_box">
+            
+        </div>
 
         <div class="box_title projects_txt">
-            <h4>projects<div class="oo"></div></h4>
+            <h4>projects<div id="oo"></div></h4>
         </div>
 
         <!-- main contents -->
@@ -124,9 +135,9 @@
                     <div class="projects_box projects_1">
                         <div class="project_goal">
                             <h4>Project Goal</h4>
-                            <p>기존의 복잡한 레이아웃을 심플하고 깔끔한 레이아웃으로 재구성.<br>
+                            <p>기존의 복잡한 레이아웃을 <br class="m_br">심플하고 깔끔한 레이아웃으로 재구성.<br>
                             웹접근성과 가독성 확보.<br>
-                            디자인된 레이아웃을 탄탄하고 조직적인 HTML로 구현.</p>
+                            디자인된 레이아웃을 탄탄하고 <br class="m_br">조직적인 HTML로 구현.</p>
                         </div>
                         <div class="project_goal_img">
                         </div>
@@ -147,7 +158,7 @@
                                         <p>#생기있는</p>
                                     </div>
                                     <div id="keyword_txt2">
-                                        <p>- 널디 브랜드의 생기있고 활발한 느낌을 나타냄.</p>
+                                        <p>- 널디 브랜드의 생기있고 <br class="m_br">활발한 느낌을 나타냄.</p>
                                     </div>
                                 </div>
                             </li>
@@ -160,7 +171,7 @@
                                         <p><span id="color3"></span>#000</p>
                                     </div>
                                     <div id="color_txt2">
-                                        <p>- 보라색을 포인트 컬러로 두고 포인트 컬러를 눈에띄게 사용할수있는 기본 블랙,화이트를 사용.</p>
+                                        <p>- 보라색을 포인트 컬러로 두고 <br class="m_br">포인트 컬러를 눈에띄게 사용할수있는 <br class="m_br">기본 블랙,화이트를 사용.</p>
                                     </div>
                                 </div>
                             </li>
@@ -171,7 +182,7 @@
                                         <p>Montserrat, Noto Sans KR</p>
                                     </div>
                                     <div id="font_txt2">
-                                        <p>- 데코레이션 용도를 제외한 텍스트를 사용자 누구나 잘 읽을 수 있도록 가독성 좋은 폰트 사용.</p>
+                                        <p>- 데코레이션 용도를 제외한 텍스트를 <br class="m_br">사용자 누구나 잘 읽을 수 있도록 <br class="m_br">가독성 좋은 폰트 사용.</p>
                                     </div>
                                 </div>
                             </li>
@@ -184,10 +195,10 @@
                     <div class="projects_box projects_3">
                         <div class="ui_ux">
                             <h4>UI / UX Design</h4>
-                            <p>중요 텍스트에 메인컬러를 포인트로 주어 눈에 잘띄게 함.<br>
-                                모든 사용자 정보를 쉽게 인지하고 사용할 수 있도록, 크고 넓은 레이아웃 을 가짐.<br>
-                                규칙적인 그리드로 더 심플하고 깔끔하게 디자인함.<br>
-                                PC 페이지 스크롤 시 페이지 상단으로 갈 수 있는 버튼 고정.</p>
+                            <p>- 중요 텍스트에 메인컬러를 <br class="m_br">포인트로 주어 눈에 잘띄게 함.<br>
+                                - 모든 사용자 정보를 쉽게 인지하고 <br class="m_br">사용할 수 있도록, 크고 넓은 레이아웃 을 가짐.<br>
+                                - 규칙적인 그리드로 <br class="m_br">더 심플하고 깔끔하게 디자인함.<br>
+                                - PC 페이지 스크롤 시 <br class="m_br">페이지 상단으로 갈 수 있는 버튼 고정.</p>
                         </div>
                         <div class="Publishing">
                             <h4>Publishing</h4>
@@ -207,5 +218,6 @@
                     </div>
                 </div>
         </div>
+        
     </body>
 </html>
