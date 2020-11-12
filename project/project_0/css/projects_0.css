@@ -1,11 +1,10 @@
 @charset "utf-8";
 
-body {color:#1D1D1D;margin:0; padding:0;font-family:"Montserrat-Bold","Montserrat-ExtraBold","Montserrat-Medium","Montserrat-Regular",'Noto Sans KR',sans-serif;}
+body {color:#1D1D1D;margin:0; padding:0;font-family:"Montserrat-Bold",'Noto Sans KR',sans-serif;}
 /* dark mode */
 body.active {background-color: #1d1d1d; color: #fff;}
 ul, li {list-style:none; margin:0; padding:0;}
 a {color: inherit;text-decoration: none;}
-
 
 /***** Mobile *****/
     /*** Mobile header ***/
@@ -92,7 +91,7 @@ a {color: inherit;text-decoration: none;}
         left: 4%;
         width: 90%;
     }
-    /* .box_title h4 {
+    .box_title h4 {
         width: 100%;
         height: 8vh;
         align-items: center;
@@ -101,30 +100,18 @@ a {color: inherit;text-decoration: none;}
         font-size: 1.2em;
         padding-top: 10vh;
         font-weight: 900;
+        /* justify-content: center; */
         text-transform: capitalize;}
     .box_title #oo {
         background-color: #1D77FF;
         width: 7px; height: 7px;
         margin-top: 3%; margin-left: 4px;
         border-radius: 50%;
-    } */
-
-    /* .projects_0 {height: 100vh; margin: 0 auto;display: flex; align-items: center;justify-content: center;} */
-
+    }
     /* projects_box */
-    .projects_box {width: 90%; margin: 0 auto; height: 80vh;padding-top: 12vh;}
-    .projects_box h4 {
-        width: 100%;
-        font-size: 1.1em;
-        margin: 0 auto;
-        margin-bottom: 30px;
-    }
-    
-    .projects_box p {
-        font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif;
-    }
+    .projects_box {width: 90%; margin: 0 auto; height: 80vh;margin-top: 20vh;}
+    .projects_box h4 {margin: 0;}
     /* projects_0 */
-    .projects_0 { height: 100%;display: flex; justify-content: center; flex-direction: column;padding-top: 0;}
     .projects_0 h2 {font-size: 3em;text-transform: uppercase;margin: 10px 0;}
     .projects_0 h3 {margin: 0; margin-bottom: 5px;}
     .projects_0 h5 {margin: 0; margin-bottom: 20px;}
@@ -133,24 +120,9 @@ a {color: inherit;text-decoration: none;}
     /* .projects_1 */
     .projects_1 {}
     /* .projects_2 */
-    .projects_2 {}
-    .projects_2 .design {display: flex; justify-content: space-between; flex-direction: column; height: 75%;}
-    .projects_2 h6 {font-size: 1em;margin: 0;margin-bottom: 12px;
-    font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif;
-    text-transform: capitalize;}
-    .projects_2 p {margin: 0;}
-    #keyword_txt1 {display: flex; margin-bottom: 10px;}
-    #keyword_txt1 p {margin-right: 10px;}
-    #color_txt1 {display: flex; margin-bottom: 10px;}
-    #color_txt1 p {margin-right: 10px;}
-    #font_txt1 {margin-bottom: 10px;}
-    .ui_ux {margin-bottom: 45px;}
-    .view_website {width: 150px; height: 50px; float: right;margin-top: 20px;font-size: 1.8em;}
-    .view_website a {display: flex;align-items: center; width: 100%; height: 100%; justify-content: center; -webkit-text-stroke:1px #1D77FF; color:#fff;}
-    .view_website h6 {margin: 0;align-items: center;}
-    .view_website:hover a {
-        color: #1D77FF; -webkit-text-stroke:0px;
-    }
+    .projects_1 {}
+    #keyword_txt1 {display: flex;}
+    #color_txt1 {display: flex;}
         
         
 /***** Tablet *****/
@@ -168,8 +140,7 @@ a {color: inherit;text-decoration: none;}
         /* fullpage main text */
         #fullpage h2 {
             height: 15vh;
-            padding-top: none;
-            font-size: 6em;
+            padding-top: 6vh;
         }
         #oo {
             width: 10px; height: 10px;
@@ -186,34 +157,6 @@ a {color: inherit;text-decoration: none;}
             bottom: 38%;
             margin-left: 7px;
         } */
-        .projects_box {
-            width: 80%;
-            padding-top: none;
-        }
-        .projects_box h4 {font-size: 1.6em;}
-        .projects_box p {font-size: 1.2em;}
-        .projects_0 p {
-            font-size: 1.5em;
-        }
-        .projects_0 h3 {font-size: 1.5em;}
-        .projects_0 h5 {font-size: 1.2em;}
-
-        /* projects_2 */
-        .projects_2 br {display: none;}
-        .projects_2 h6 {font-size: 1.2em;}
-        #keyword_txt1 p {margin-right: 40px;}
-        #color_txt1 p {margin-right: 40px; display: flex;align-items: center;}
-        #color_txt1 span {width: 18px; height: 18px;  border-radius: 50%;display: flex;
-        margin-right: 10px; align-items: center; box-shadow: 2px 3px 5px rgba(29,29,29,.2);
-        }
-        #color_txt1 #color1 {background-color: #9201ff;}
-        #color_txt1 #color2 {background-color: #fff;}
-        #color_txt1 #color3 {background-color: #000;}
-
-        /* projects_3 */
-        .projects_3 br {display: none;}
-        /* view_website */
-        .view_website {position: absolute; right: 8%; bottom: 10%;width: 250px; font-size: 2.8em;}
              
 }
 /***** PC *****/

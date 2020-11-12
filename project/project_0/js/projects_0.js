@@ -1,6 +1,6 @@
 $(function() {
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['projects1', 'projects2', 'projects3', 'projects4'],
+        anchors: ['home', 'aboutMe', 'projects', 'letsTalk'],
         css3: true,
         //menu: '#gnb'
         normalScrollElements: '.scrollable-element',
