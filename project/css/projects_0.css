@@ -92,25 +92,7 @@ a {color: inherit;text-decoration: none;}
         left: 4%;
         width: 90%;
     }
-    /* .box_title h4 {
-        width: 100%;
-        height: 8vh;
-        align-items: center;
-        margin: 0 auto;
-        display: flex;
-        font-size: 1.2em;
-        padding-top: 10vh;
-        font-weight: 900;
-        text-transform: capitalize;}
-    .box_title #oo {
-        background-color: #1D77FF;
-        width: 7px; height: 7px;
-        margin-top: 3%; margin-left: 4px;
-        border-radius: 50%;
-    } */
-
-    /* .projects_0 {height: 100vh; margin: 0 auto;display: flex; align-items: center;justify-content: center;} */
-
+    
     /* projects_box */
     .projects_box {width: 90%; margin: 0 auto; height: 80vh;padding-top: 12vh;}
     .projects_box h4 {

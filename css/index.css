@@ -239,6 +239,10 @@ a {color: inherit;text-decoration: none;}
               .scrollable-element > div > a {
                 display: block; width: 100%; height: 100%;
               }
+              .scrollable-element .box {background-position: center; background-size: 100%; background-repeat: no-repeat;}
+              .scrollable-element .box1 {background-image: url(../images/url_img.jpg);}
+              .scrollable-element .box2 {background-image: url(../images/t_money_proimg.png);}
+              .scrollable-element .box3 {background-image: url(../images/jysnc.jpg);}
               /* .scrollable-element .box1 {
                 background-image: url(../projects/nerdy/images/main_img_1.png);
                 background-size: 100% 100%;
