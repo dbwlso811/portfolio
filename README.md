@@ -1,8 +1,7 @@
 <img src="/images/url_img.png" width="100%" alt="protfolio"></img>
+* * *
 # Hello! 😍
 Portfolio in pursuit of perfection.
-* * *
-
 
 ### about
 * 이곳은 개인 포트폴리오 저장소 입니다.
