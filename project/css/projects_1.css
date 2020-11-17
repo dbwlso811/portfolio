@@ -113,9 +113,57 @@ a {color: inherit;text-decoration: none;}
     .projects_0 p:last-child {margin: 0; margin-top: 30px;line-height: 1.6em;}
     /* .projects_1 */
     .projects_1 {}
+    /* .projects_2 */
+    .projects_2 .box2 {}
+    .introduction h6 {font-size: 0.9em; margin: 10px 0;}
+    .introduction p {font-size: 0.8em;}
+    .researchimg {width: 100%; height: 22vh; background-size: 80%; background-repeat: no-repeat; background-position: center;}
+    #research_img1 {background-image: url(../images/w_target_1.png);}
+    #research_img2 {background-image: url(../images/w_target_2.png);}
+    /* .projects_3 */
+    .projects_3 h6 {font-size: 0.9em; margin: 0; margin-bottom: 20px;}
+    .competitor {display: flex; justify-content: space-between; flex-direction: column;height: 80%;}
+    .competitor h6 {margin: 0;}
+    .competitor p {font-size: 0.8em;}
+    .competitortxt {display: none;}
+    .deskbox {display: flex;}
+    .deskimg {width: 70px; height: 70px;background-size: cover; background-repeat: no-repeat; background-position: center; margin-right: 20px;border-radius: 25%; box-shadow: 2px 3px 5px rgba(29,29,29,.2);}
+    #desk_img1 {background-image: url(../images/img_1.png);}
+    #desk_img2 {background-image: url(../images/img_2.png);}
+    #desk_img3 {background-image: url(../images/img_3.png);}
+    .m_desk p {margin: 5px 0;}
+    /* .projects_4 */
+    .projects_4 h6 {font-size: 0.9em;}
+    .projects_4 p {font-size: 0.8em;}
+    .app_box1 {height: 15%;}
+    .app_box2 {height: 65%;
+        display: flex; flex-direction: column; justify-content: space-between;}
+    /* .projects_5 */
+    .projects_5 {display: flex; align-items: center;}
+    .project5_txt {text-align: center; display: flex; justify-content: space-between; flex-direction: column;height: 40%;width: 100%;}
+    .project5_txt h4 {margin: 0;}
+    .project5_txt p {margin: 0;}
+    /* .projects_6 */
+    .personas {display: flex; justify-content: space-between; flex-direction: column; height: 90%;}
+    .personas1, .personas2 {height: 50%; display: flex;}
+    .personasimg {width: 70px; height: 70px; 
+    margin-right: 20px; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 50%;
+    }
+    .personas_img1 {background-image: url(../images/personas_img1.png);}
+    .personas_img2 {background-image: url(../images/personas_img2.png);}
+    .personas_txt h6 {margin: 0; font-size: 0.9em;}
+    .personasgrap {width: 70%; height: 12px;background-repeat: no-repeat; background-size: cover; background-position: center;box-shadow: 2px 3px 5px rgba(29,29,29,.2); border-radius: 25px;}
+    #personas_grap1 {background-image: url(../images/personas_1.png);}
+    #personas_grap2 {background-image: url(../images/personas_2.png);}
+    /* .projects_7 */
+    .projects_7 {display: flex;flex-direction: column;}
+    .personabox_1 {width: 100%; height: 100%; background-image: url(../images/w_ux_flow_m.png); background-size: 100%; background-position: center; background-repeat: no-repeat;}
+    /* .projects_8 */
+    .projects_8 {display: flex;flex-direction: column;}
+    .wireframe_img {width: 100%; height: 100%; background-image: url(../images/m_wireframe.png);background-size: contain; background-position: center; background-repeat: no-repeat;}
     /* .projects_9 */
     .projects_9 .design {display: flex; justify-content: space-between; flex-direction: column; height: 75%;}
-    .projects_9 h6 {font-size: 1em;margin: 0;margin-bottom: 12px;
+    .projects_9 h6 {font-size: 0.9em;margin: 0;margin-bottom: 12px;
     font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif;
     text-transform: capitalize;}
     .projects_9 p {margin: 0;}
@@ -126,9 +174,11 @@ a {color: inherit;text-decoration: none;}
     #font_txt1 {margin-bottom: 10px;}
     
     .ui_ux {margin-bottom: 45px;}
-    .view_website {width: 150px; height: 50px; float: right;margin-top: 20px;font-size: 1.8em;}
-    .view_website a {display: flex;align-items: center; width: 100%; height: 100%; justify-content: center; -webkit-text-stroke:1px #1D77FF; color:#fff;}
-    .view_website h6 {margin: 0;align-items: center;}
+    /* .projects_10 */
+    .projects_10 {display: flex; justify-content: space-between; flex-direction: column;}
+    .view_website {height: 50px; margin-top: 20px;font-size: 1.8em;}
+    .view_website a {display: flex;align-items: center; float: right; width: 30%; height: 100%; -webkit-text-stroke:1px #1D77FF; color:#fff;}
+    .view_website h6 {margin: 0 auto;align-items: center;}
     .view_website:hover a {
         color: #1D77FF; -webkit-text-stroke:0px;
     }
