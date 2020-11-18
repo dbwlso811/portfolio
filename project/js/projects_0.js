@@ -1,6 +1,6 @@
 $(function() {
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['projects1', 'projects2', 'projects3', 'projects4'],
+        anchors: ['projects0', 'projects1', 'projects2', 'projects3', 'projects4', 'projects5', 'projects6', 'projects7', 'projects8', 'projects9', 'projects10'],
         css3: true,
         //menu: '#gnb'
         normalScrollElements: '.scrollable-element',
@@ -51,5 +51,8 @@ $(function() {
         $('#call1').toggleClass('active');
         $('#call2').toggleClass('active');
         $('#call3').toggleClass('active');
+        // img
+        $('#research_img1').toggleClass('active');
+        $('.personabox_1').toggleClass('active');
       });
     });
