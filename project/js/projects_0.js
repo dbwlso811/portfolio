@@ -53,6 +53,8 @@ $(function() {
         $('#call3').toggleClass('active');
         // img
         $('#research_img1').toggleClass('active');
+        $('#research_img2').toggleClass('active');
         $('.personabox_1').toggleClass('active');
+        $('.view_website a').toggleClass('active');
       });
     });

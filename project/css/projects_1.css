@@ -120,7 +120,7 @@ h6 {font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif; font-size: 1em;}
     .projects_2 .box2 {}
     .introduction h6 {margin: 10px 0;}
     .introduction p {}
-    .researchimg {background-size: 80%; background-repeat: no-repeat; background-position: center;}
+    .researchimg {background-size: 100% 100%; background-repeat: no-repeat; background-position: center;}
     #research_img1 {background-image: url(../images/w_target_1.png);
         width: 100%; height: 18vh;
     }
@@ -194,6 +194,7 @@ h6 {font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif; font-size: 1em;}
 
     .view_website {height: 50px; margin-top: 20px;font-size: 1.8em;}
     .view_website a {display: flex;align-items: center; float: right; width: 30%; height: 100%; -webkit-text-stroke:1px #1D77FF; color:#fff;}
+    .view_website a.active {color: #1D1D1D;}
     .view_website h6 {margin: 0 auto;align-items: center;font-size: 0.7em; font-family:"Montserrat-Bold","Montserrat-ExtraBold","Montserrat-Medium","Montserrat-Regular",'Noto Sans KR',sans-serif;}
     .view_website:hover a {
         color: #1D77FF; -webkit-text-stroke:0px;
@@ -232,7 +233,7 @@ h6 {font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif; font-size: 1em;}
             padding-top: none;
         }
         .projects_box h4 {font-size: 1.6em; margin-bottom: 35px;}
-        .projects_box p {font-size: 1.2em;}
+        .projects_box p {font-size: 1.2em; line-height: 1.5em;}
         .projects_0 p {
             font-size: 1.5em;
         }
@@ -243,7 +244,7 @@ h6 {font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif; font-size: 1em;}
         .projects_2 br {display: none;}
         .projects_2 h6 {font-size: 1.2em;}
         .projects_2 .box2 {display: flex; justify-content: space-between; flex-direction: row;}
-        .projects_2 .box2 > li {width: 50%;}
+        .projects_2 .box2 > li {width: 45%;}
         /* projects_3 */
         .projects_3 br {display: none;}
         .projects_3 h6 {margin-bottom: 30px;}
@@ -257,11 +258,16 @@ h6 {font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif; font-size: 1em;}
         /* projects_6 */
         .personas {display: flex; justify-content: space-between; flex-direction: row;}
         .personas1, .personas2 {width: 50%; height: 100%; display: flex; flex-direction: column; align-items: center;}
-        .personasimg {width: 150px; height: 150px; margin: 0;}
+        .personasimg {width: 150px; height: 150px; margin: 0; margin-bottom: 30px;}
         .personas_txt {text-align: center;}
+        .personas_txt h6 {font-size: 1.2em;}
         .personasgrap {margin: 10px auto;}
         /* projects_7 */
+        .personabox_1 {background-image: url(../images/w_ux_flow.png);}
+        .personabox_1.active {background-image: url(../images/d_ux_flow.png);}
+
         /* projects_8 */
+        .wireframe_img {background-image: url(../images/wireframe.png);}
         /* projects_9 */
         #keyword_txt1 p {margin-right: 40px;}
         #color_txt1 p {margin-right: 40px; display: flex;align-items: center;}
@@ -357,11 +363,28 @@ h6 {font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif; font-size: 1em;}
         position: absolute;
         bottom: 0;
     }
-    
+    /* projects_0 */
+    /* projects_1 */
+    .projects_1 {flex-direction: row;}
+    /* projects_2 */
+    .projects_2 .box2 {justify-content: flex-start;}
+    .projects_2 .box2 > li {width: 30%; margin-right: 15%;}
+    /* projects_3 */
+    .projects_3 h6 {font-size: 1.2em;}
+    .deskimg {width: 100px; height: 100px;}
+
+    /* projects_4 */
+    .projects_4 h4 {margin-bottom: 10%;}
+    /* projects_5 */
+    /* projects_6 */
+    /* projects_7 */
+    .personabox_1 {width: 80%; height: 80%; margin: 0 auto;}
+    /* projects_8 */
+    /* projects_9 */
+    /* projects_10 */
+    .projects_10 {height: 69vh;}
+    .prototypeimg {width: 231.6599px; height: 505.44px; }
+    .prototype .img1 {display: block; background-image: url(../images/prototype_1.png);}
+    .prototype .img3 {display: block; background-image: url(../images/prototype_3.png);}
 }
-    /*** Mobile header ***/
-        /* logo */
-        /* call */
-        /* .call {width: 53px; height: 53px;text-indent: -9999px; background-color: #1D1D1D;margin-right: 4%;}
-        .call a {display: block;background: url() no-repeat;background-size: cover;} */
 
