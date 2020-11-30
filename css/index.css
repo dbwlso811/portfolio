@@ -21,6 +21,30 @@ a {color: inherit;text-decoration: none;}
         h1 a {display: block;width: 100%; height: 100%;}
         /* call */
         .call_icon {display: none;}
+        /* console-container */
+        .console-container {
+            display: none;
+            position: absolute;
+            top: 0; bottom: 0; left: 0; right: 0;
+            margin: auto;
+            background-color: #fff;
+            width: 300px; height: 150px;
+            color: #1D77FF;
+            z-index: 1;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            font-size: 1.5em;
+            box-shadow:2px 3px 5px rgba(29,29,29,.2);
+        }
+        /* .console-container span {margin: 0;} */
+        .console-underscore {
+            display: inline-block;
+            position: relative;
+            top: -0.14em;
+            left: 10px;
+          }
+
 
     /*** mode ***/
     .mode {width: 100%; height: 7%; position: fixed; bottom: 0; z-index: 999; margin-left: 4%;}
@@ -112,14 +136,7 @@ a {color: inherit;text-decoration: none;}
             position: relative;
             text-align: center;
         }
-        /* #section0 #oo {
-            background-color: #1D77FF;
-            width: 11px; height: 11px;
-            position: absolute;
-            right: 19%;
-            bottom: 42.5%;
-            margin-left: 5px;
-        } */
+        
         /* contents1 - ABOUT ME */
             /* 페이지 넥스트 이벤트 */
             .about_event {width: 90%; height: 80vh;
@@ -243,17 +260,6 @@ a {color: inherit;text-decoration: none;}
               .scrollable-element .box1 {background-image: url(../images/url_img.jpg);}
               .scrollable-element .box2 {background-image: url(../images/t_money_proimg.png);}
               .scrollable-element .box3 {background-image: url(../images/jysnc.jpg);}
-              /* .scrollable-element .box1 {
-                background-image: url(../projects/nerdy/images/main_img_1.png);
-                background-size: 100% 100%;
-                background-repeat: no-repeat;
-                background-position: center;
-              }
-              .scrollable-element .box2 {
-                background-image: url(../projects/images/t_money_proimg.png);
-                background-size: 100% 100%;
-                background-repeat: no-repeat;
-                background-position: center; }*/
               
                 /* 스크롤바 없애기 */
                 ::-webkit-scrollbar { display: none; }
@@ -296,12 +302,7 @@ a {color: inherit;text-decoration: none;}
             font-size: 5em;
             line-height: 1.3em;
         }
-        /* #section0 #oo {
-            width: 16px; height: 16px;
-            right: 29%;
-            bottom: 38%;
-            margin-left: 7px;
-        } */
+        
         /* contents1 - ABOUT ME */
             /* 페이지 넥스트 이벤트 */
             .about_event { height: 79vh;}
@@ -347,6 +348,10 @@ a {color: inherit;text-decoration: none;}
             0 {transform: rotate(0);}
             50% {transform:rotate(-15deg);}
             100% {transform:rotate(20deg);}
+        }
+        /* call box */
+        .console-container.active {
+            display: flex;
         }
         
     /** menu icon **/
@@ -413,13 +418,10 @@ a {color: inherit;text-decoration: none;}
         #fullpage h2 {
             height: 15vh;
             width: 25vw;
-            /* height: 65vh; */
             padding-top: 42.5vh;
             justify-content: start;
-            /* margin: 0 auto; */
             position: fixed;
             left: 11.5%;
-            /* padding: 0; */
             display: flex;
             font-size: 3em;
         }
@@ -472,7 +474,6 @@ a {color: inherit;text-decoration: none;}
                     .programe h4 {margin: 0; margin-bottom: 15px;}
                     .programe strong {font-size: 0.8em;}
                     .programe strong br {display: block;}
-                    /* .programebox {margin: 0;} */
                     /* programe graph */
                     .programe #graph {margin: 0;width: 72%;}
                     .publilshing {display: flex; height: 100%;}
@@ -482,7 +483,6 @@ a {color: inherit;text-decoration: none;}
                     .programe .box_txt li {display: flex;}
                     .programe .box_txt li p:first-child {width: 25%;}
                     .programe .programbox {text-align: start; height: 85%; display: flex; flex-direction: column; justify-content: space-between;}
-                    /* .programe .program_box {height: 48%;} */
                     .programe .program_box:first-child {height: 58%;}
                     .programe .program_box:last-child {height: 32%;}
                     .program_box > ul > li {width: 50%;}
@@ -501,9 +501,5 @@ a {color: inherit;text-decoration: none;}
         .talk_call {height: 58vh; padding: 0;display: flex; margin: 0 auto; justify-content: space-between; flex-direction: column;}
         .talk_call li { font-size: 1.5em;padding-top: 10%;}
 }
-    /*** Mobile header ***/
-        /* logo */
-        /* call */
-        /* .call {width: 53px; height: 53px;text-indent: -9999px; background-color: #1D1D1D;margin-right: 4%;}
-        .call a {display: block;background: url() no-repeat;background-size: cover;} */
+        
 
