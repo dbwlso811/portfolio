@@ -113,9 +113,8 @@ a {color: inherit;text-decoration: none;}
     .projects_0 p {margin: 0;}
     .projects_0 p:last-child {margin: 0; margin-top: 30px;line-height: 1.6em;}
     /* .projects_1 */
-    .projects_1 {}
+    .project_goal_img {;width: 100%; height: 450px;background-image: url(../images/netflix_mac_img.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
     /* .projects_2 */
-    .projects_2 {}
     .projects_2 .design {display: flex; justify-content: space-between; flex-direction: column; height: 75%;}
     .projects_2 h6 {font-size: 1em;margin: 0;margin-bottom: 12px;
     font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif;
@@ -280,9 +279,4 @@ a {color: inherit;text-decoration: none;}
     }
     
 }
-    /*** Mobile header ***/
-        /* logo */
-        /* call */
-        /* .call {width: 53px; height: 53px;text-indent: -9999px; background-color: #1D1D1D;margin-right: 4%;}
-        .call a {display: block;background: url() no-repeat;background-size: cover;} */
-
+    

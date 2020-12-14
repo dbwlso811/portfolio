@@ -113,9 +113,8 @@ a {color: inherit;text-decoration: none;}
     .projects_0 p {margin: 0;}
     .projects_0 p:last-child {margin: 0; margin-top: 30px;line-height: 1.6em;}
     /* .projects_1 */
-    .projects_1 {}
+    .project_goal_img {;width: 100%; height: 450px;background-image: url(../images/nerdy_mac_img.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
     /* .projects_2 */
-    .projects_2 {}
     .projects_2 .design {display: flex; justify-content: space-between; flex-direction: column; height: 75%;}
     .projects_2 h6 {font-size: 1em;margin: 0;margin-bottom: 12px;
     font-family: "Montserrat-Medium",'Noto Sans KR',sans-serif;
@@ -128,7 +127,9 @@ a {color: inherit;text-decoration: none;}
     #font_txt1 {margin-bottom: 10px;}
     .ui_ux {margin-bottom: 45px;}
     .view_website {width: 150px; height: 50px; float: right;margin-top: 20px;font-size: 1.8em;}
-    .view_website a {display: flex;align-items: center; width: 100%; height: 100%; justify-content: center; -webkit-text-stroke:1px #1D77FF; color:#fff;}
+    .view_website a {display: flex;align-items: center; width: 100%; height: 100%; justify-content: center; -webkit-text-stroke:1px #1D77FF; color: #fff;}
+    /* 수정 */
+    .view_website a:active {color: #1d1d1d;}
     .view_website h6 {margin: 0;align-items: center;}
     .view_website:hover a {
         color: #1D77FF; -webkit-text-stroke:0px;
@@ -162,12 +163,6 @@ a {color: inherit;text-decoration: none;}
             font-size: 5em;
             line-height: 1.3em;
         }
-        /* #section0 #oo {
-            width: 16px; height: 16px;
-            right: 29%;
-            bottom: 38%;
-            margin-left: 7px;
-        } */
         .projects_box {
             width: 80%;
             padding-top: none;
@@ -280,9 +275,4 @@ a {color: inherit;text-decoration: none;}
     }
     
 }
-    /*** Mobile header ***/
-        /* logo */
-        /* call */
-        /* .call {width: 53px; height: 53px;text-indent: -9999px; background-color: #1D1D1D;margin-right: 4%;}
-        .call a {display: block;background: url() no-repeat;background-size: cover;} */
 

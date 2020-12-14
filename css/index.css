@@ -388,7 +388,7 @@ a {color: inherit;text-decoration: none;}
     }
     nav.on #gnb {background-position: 99% 10px;text-align: center;}
     nav.on #gnb h5 {right: 0;}
-    nav.on .toggleMenu {display: block;padding-top:100px}
+    nav.on .toggleMenu {display: flex; justify-content: center; flex-direction: column;}
     nav .toggleMenu a {display: block;font-weight: bold;font-size: 50px;    line-height: 100px;text-transform: capitalize;}
     nav .toggleMenu a:hover {color: #1D77FF;}
     /*  */
