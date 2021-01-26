@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,288 +20,414 @@
 		<meta name="twitter:image" content="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPMs0u%2FbtqNHpEjcJG%2FKokBSmRJNl5fJ6CqTava6k%2Fimg.png">
 		<meta name="twitter:url" content="https://dbwlso811.github.io/portfolio/index.html">
         <title>Kim Yoo Jin Portfolio</title>
-
-        <!-- css 연결 -->
-        <!-- 폰트 -->
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
-        <!-- font-family: 'Noto Sans KR'; -->
-        <link rel="stylesheet" href="css/font.css">
-        <!-- font-family: 'Montserrat-Bold','Montserrat-ExtraBold','Montserrat-Medium','Montserrat-Regular'; -->
-        <!-- 파비콘 -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-        <link rel="manifest" href="common/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="common/normalize.css">
-        <link rel="stylesheet" href="css/fullpage.min.css">
-        <link rel="stylesheet" href="css/index.css">
-
-        <!-- JS/jQuery 연결 -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
-        <script src="js/fullpage.min.js"></script>
-        <script src="js/index.js"></script>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/index.css" rel="stylesheet" />
     </head>
-
-    <body>
-        <!-- header-->
-        <header id="header">
-                <!-- logo -->
-                <h1>
-                    <a href="index.html">김유진의 포트폴리오 입니다.</a>
-                </h1>
-                <!-- call -->
-                <div class="call_icon">
-                    <a href="#">call</a>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">logo</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-                <!-- mobile nav -->
-                <div class="mobile_nav">
-                    <div class="wrapper-menu">
-                        <div class="line-menu half start"></div>
-                        <div class="line-menu"></div>
-                        <div class="line-menu half end"></div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <!-- <img class="masthead-avatar mb-5" src="assets/img/my_img.png" alt="" /> -->
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase">
+                    Portfolio In<br>
+                    Pursuit Of<br>
+                    Perfection_</h1>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light">퍼블리셔 kim yoo jin의 포트폴리오 사이트입니다.</p>
+                <!-- scroll bottom -->
+                <div></div>
+            </div>
+        </header>
+        <!-- About Section-->
+        <section class="page-section mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase">About</h2>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-6 m-auto text-center align-items-center">
+                        <!-- Masthead Avatar Image-->
+                        <img class="masthead-avatar mb-5 img-fluid" src="assets/img/my-img1.jpg" alt=""  />
+                    </div>
+                    <div class="col-lg-12 ml-auto text-center"><p class="lead">1994.08.11  28세</p></div>
+                    <div class="col-lg-12 mr-auto text-center"><p class="lead">
+                        안녕하세요!<br>
+                        도전하는 신입 웹퍼블리셔 김유진입니다.<br>
+                        <br>
+                        쉽고,재밌고,남다르게 표현하는걸 좋아하고<br>
+                        탄탄한 코드위에 감각적인 ui를 그려냅니다.<br>
+                        css와 javascript를 활용한 동적모션을 좋아합니다.<br>
+                        <br>
+                        좋아하는일을 즐기면서 잘하는것, 끈임없는 도전<br>
+                        제가 꿈꾸는 저의 모습입니다 :)</p></div>
+                </div>
+
+                <!-- skill Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase">skill</h2>
+
+                <!-- skill Section Content-->
+                <div class="row">
+                    <div class="col-lg-12 ml-auto text-center">
+                        <!-- <p class="lead">1994.08.11  28세</p> -->
+                        <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-html5"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-css3-alt"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-html5"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-sass"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-js"></i></a> -->
+                        <img class="img-fluid rounded mb-5" src="assets/img/skill.png" alt="" />
+                    </div>
+                    <!-- <div class="col-lg-12 mr-auto text-center"><p class="lead">
+                        skill~~~~</p></div> -->
+                </div>
+                <!-- About Section Button-->
+                <!-- <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                        <i class="fas fa-download mr-2"></i>
+                        Free Download!
+                    </a>
+                </div> -->
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">Portfolio</h2>
+                <!-- Icon Divider-->
+                <!-- <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div> -->
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <!-- portfolio name -->
+                                    <p>moongkle</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnAmHz%2FbtqT7W5hNLk%2FN4DlKfrI8k8LScZKCgToh1%2Fimg.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <!-- portfolio name -->
+                                    <p>NERDY</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNcvuY%2FbtqM9OL1kCR%2FfXNJd6UfIppRJigUCNOHj0%2Fimg.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <!-- portfolio name -->
+                                    <p>T-money</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxqFQA%2FbtqUnLirm6k%2FiiKkXkkrPc4LIIpeHvnv51%2Fimg.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <!-- portfolio name -->
+                                    <p>JYSNC</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdQ0YIM%2FbtqNqecYJiG%2Fjvylq5vFpFjb1nHvaRDQL0%2Fimg.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <!-- portfolio name -->
+                                    <p>netflix</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLZIer%2FbtqOYvrA8Cf%2FDBHsQXgdt3lPjucBB9mMtK%2Fimg.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <!-- portfolio name -->
+                                    <p>preparing...</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fce9oyD%2FbtqUnKX7Hz7%2FeONXrnmWFpe88437FaRn0K%2Fimg.jpg" alt="" />
+                        </div>
                     </div>
                 </div>
-        </header>
-        <div class="console-container">
-            <span id="number"></span>
-            <div class='console-underscore' id='console'>&#95;</div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">Contact Me</h2>
+                <!-- Contact Section Form-->
+                <div class="row align-items-center">
+                    <!--  -->
+                    <a class="contact_form text-decoration-none col-md-6 col-lg-4 d-flex align-items-center flex-column justify-content-center h-100 w-100" href="dbwls_0811@naver.com">
+                        <i class="far fa-envelope"></i>
+                        <p>dbwls_0811@naver.com</p>
+                    </a>
+                    <a class="contact_form text-decoration-none col-md-6 col-lg-4 d-flex align-items-center flex-column justify-content-center h-100 w-100" href="https://github.com/dbwlso811">
+                        <i class="fab fa-github"></i>
+                        <p>github</p>
+                    </a>
+                    <a class="contact_form text-decoration-none col-md-6 col-lg-4 d-flex align-items-center flex-column justify-content-center h-100 w-100" href="dbwls_0811@naver.com">
+                        <div class="divider-custom-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <p>010-8253-7035</p>
+                    </a>
+                    <!--  -->
+                    <!-- <div class="col-md-6 col-lg-4 mb-5">
+                        
+                        <div class="divider-custom d-flex align-items-center flex-column col-md-6 col-lg-4 mb-5" href="dbwls_0811@naver.com">
+                            <div class="divider-custom-icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <p>dbwls_0811@naver.com</p>
+                        </div>
+                        <div class="divider-custom d-flex align-items-center flex-column col-md-6 col-lg-4 mb-5" href="dbwls_0811@naver.com">
+                            <div class="divider-custom-icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <p>dbwls_0811@naver.com</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center">
+            <div class="container container_footer"><small>Copyright © Website 2021</small></div>
         </div>
-        <!-- bark $ white mode -->
-        <div class="mode">
-            <div class="mode_box">
-                <div class="mode_btn"></div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase" id="portfolioModal2Label">moongkle</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/moongkle_mac_img.png" alt="" />
+                                    <!-- Portfolio Modal - Image2-->
+                                    <img class="img-fluid mb-5" src="assets/img/portfolio/moongkle.jpg" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <button class="btn btn-primary text-uppercase">
+                                        <a href="https://dbwlso811.github.io/moongkle/index.html">link</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- mobile navigation -->
-        <div class="mobile_menu">
-                <ul id="nav">
-                    <li class="nav_page1"><a href="#section1">about_me</a></li>
-                    <li class="nav_page2"><a href="#section2">projects</a></li>
-                    <li class="nav_page3"><a href="#section3">let_talk</a></li>
-                </ul>
-        </div>
-
-        <!-- pc navigation -->
-        <nav>
-                <div id="gnb">
-                    <div class="pc_nav">
-                        <div class="pc-menu">
-                            <div class="line-menu half start"></div>
-                            <div class="line-menu"></div>
-                            <div class="line-menu half end"></div>
-                        </div>
-                    </div>
-                  <ul class="toggleMenu">
-                    <li><a href="#section1">about_me</a></li>
-                    <li><a href="#section2">projects</a></li>
-                    <li><a href="#section3">let_talk</a></li>
-                  </ul>
-                  <h5>MENU</h5>
-                </div>
-        </nav>
-        <!-- scroll images -->
-        <div class="scroll_box">
-            
-        </div>
-
-
-        <!-- main contents -->
-        <div id="fullpage">
-
-                <!----- home (contents0) ----->
-                <div class="section active" id="section0">
-                    <div class="section0_main">
-                        <p class="main_txt">
-                            Portfolio in<br>
-                            pursuit of<br>
-                            perfection
-                            <!-- <div id="oo"></div> -->
-                        </p>
-                    </div>
-                    
-                </div>
-            
-                <!----- ABOUT ME (contents1) ----->
-                <div class="section" id="section1">
-                    <h2>about me<div id="oo"></div></h2>
-                    
-                    <!----- ABOUT ME 페이지 이벤트 ----->
-                    <div class="about_event">
-                        <!-- slide1 img -->
-                        <a href="#">
-                            <div class="slide" id="slide1">
-                                <div class="m_box">
-                                    <div id="my_img"></div>
-                                    <div class="m_profile1">
-                                        <h3>김유진</h3>
-                                        <p><strong>Kim yoo-jin</strong> (1994.08.11~)</p>
-                                        <p>경기도 화성시 병점</p>
-                                        <p>2014.03<br>국제대학교</p>
-                                        <p>2020.10<br>더조은 컴퓨터학원 웹퍼블리셔  양성과정 수료</p>
-                                    </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase" id="portfolioModal2Label">NERDY</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nerdy_mac_img.png" alt="" />
+                                    <!-- Portfolio Modal - Image2-->
+                                    <img class="img-fluid mb-5" src="assets/img/portfolio/nerdy.jpg" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <button class="btn btn-primary text-uppercase">
+                                        <a href="https://dbwlso811.github.io/NERDY/index.html">link</a>
+                                    </button>
                                 </div>
-                                
-                            </div>
-                        </a>
-
-                        <!-- slide2 profile -->
-                        <a href="#">
-                            <div class="slide" id="slide2">
-                                <div class="profile">
-                                    <h3>김유진</h3>
-                                    <p><strong>Kim yoo-jin</strong> (1994.08.11~)</p>
-                                    <p>경기도 화성시 병점</p>
-                                    <p>2014.03 - 국제대학교</p>
-                                    <p>2020.10 - 더조은 컴퓨터학원 웹퍼블리셔 양성과정 수료</p>
-                                </div>
-                                <div class="m_profile2">
-                                    <p>안녕하세요.<br>
-                                        도전하는 신입 웹퍼블리셔 김유진입니다.<br>
-                                        쉽고,재밌고,남다르게<br class="probr">표현하는걸 좋아하고<br>
-                                        탄탄한 코드위에 <br class="probr">감각적인 ui를 그려냅니다.<br>
-                                        css와 javascript를 활용한 <br class="probr">동적모션을 좋아합니다.<br>
-                                        좋아하는일을 즐기면서 잘하는것,<br class="probr"> 끈임없는 도전<br>
-                                        제가 꿈꾸는 저의 모습입니다:)
-                                    </p>
-                                </div>
-                                
-                            </div>
-                        </a>
-
-                        <!-- slide3 programe -->
-                        <a href="#">
-                            <div class="slide" id="slide3">
-                                <div class="programe">
-                                    <h3>program ability</h3>
-                                    <ul class="programbox">
-                                        <!-- section1 -->
-                                        <li class="box program_box">
-                                            <ul class="publilshing">
-                                                <!-- publilshing  -->
-                                                <li class="box1">
-                                                    <h4>publilshing</h4>
-                                                    <div id="graph">
-                                                        <div class="graph_box graph1"></div>
-                                                    </div>
-                                                </li>
-                                                <!-- publilshing txt -->
-                                                <li class="box2">
-                                                    <ul class="box_txt">
-                                                      <li>
-                                                          <p><strong>html5</strong></p>
-                                                          <p>웹표준에 맞는 마크업을 구현합니다.<br>
-                                                          문서를 알맞게 구조화 할수있습니다.</p>
-                                                      </li>
-                                                      <li>
-                                                          <p><strong>css3</strong></p>
-                                                          <p>유지보수 용이한 스타일 가이드를<br>
-                                                          만들기 위해 노력합니다.</p>
-                                                      </li>
-                                                      <li>
-                                                          <p><strong>javascript,<br>jquery</strong></p>
-                                                          <p>메소드를 이용한 컨텐츠의<br>
-                                                          동적구현이 가능합니다.</p>
-                                                      </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <!-- section2 -->
-                                        <li class="box program_box">
-                                          <ul class="design">
-                                              <!-- design  -->
-                                              <li class="box1">
-                                                  <h4>design</h4>
-                                                  <div id="graph">
-                                                    <div class="graph_box graph2"></div>
-                                                  </div>
-                                              </li>
-                                              <!-- design txt -->
-                                              <li class="box2">
-                                                  <ul class="box_txt">
-                                                    <li>
-                                                        <p><strong>xd</strong></p>
-                                                        <p>와이어프레임,프로토타입,디자인구현이<br>가능합니다.      </p>
-                                                    </li>
-                                                    <li>
-                                                        <p><strong>photoshop,<br>illustator</strong></p>
-                                                        <p>레이아웃을 구성하고 디자인이 가능하며,   <br>구체적으로 구현가능합니다.</p>
-                                                    </li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- PROJECTS (contents2) -->           
-                <div class="section" id="section2">
-                    <h2>projects<div id="oo"></div></h2>
-                    
-                    <!-- PROJECTS 스크롤 -->
-                    <div class="scroll_listbox">
-                        <div class="scrollable-element">
-                            <h5>moongkle</h5>
-                            <div class="box box1">
-                                <a href="project/moongkle.html"></a>
-                            </div>
-                            <h5>NERDY</h5>
-                            <div class="box box2">
-                                <a href="project/nerdy.html"></a>
-                            </div>
-                            <h5>T_MONEY</h5>
-                            <div class="box box3">
-                                <a href="project/t_money.html"></a>
-                            </div>
-                            <h5>JYSNC</h5>
-                            <div class="box box4">
-                                <a href="project/jysnc.html"></a>
-                            </div>
-                            <h5>NETFLIX</h5>
-                            <div class="box box5">
-                                <a href="project/netflix.html"></a>
-                            </div>
-                            <h5>projects5</h5>
-                            <div class="box box6">
-                                <a href="#"></a>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-            
-                <!-- LET'S TALK (contents3) -->
-                <div class="section" id="section3">
-                    <h2>let's talk<div id="oo"></div></h2>
-                    
-                    <div class="call_box">
-                        <ul class="talk_call">
-                            <li>
-                                <div class="call_img" id="call1"></div>
-                                <p>dbwls_0811@naver.com</p>
-                            </li>
-                            <li>
-                                <div class="call_img" id="call2"></div>
-                                <p>010-8253-7035</p>
-                            </li>
-                            <li>
-                                <a href="https://github.com/dbwlso811"><div class="call_img" id="call3"></div>
-                                <p>https://github.com/dbwlso811</p></a>
-                            </li>
-                        </ul>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase" id="portfolioModal2Label">T-money</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/t_money_proimg.jpg" alt="" />
+                                    <!-- Portfolio Modal - Image2-->
+                                    <img class="img-fluid mb-5" src="assets/img/portfolio/T-MONEY.jpg" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <button class="btn btn-primary text-uppercase">
+                                        <a href="assets/img/portfolio/t_money.pdf">pdf</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase" id="portfolioModal2Label">JYSNC</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/jysnc_mac_img.png" alt="" />
+                                    <!-- Portfolio Modal - Image2-->
+                                    <img class="img-fluid mb-5" src="assets/img/portfolio/jysnc.jpg" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <button class="btn btn-primary text-uppercase">
+                                        <a href="https://dbwlso811.github.io/JYSNC/index.html">link</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase" id="portfolioModal2Label">netflix</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/netflix-img.png" alt="" />
+                                    <!-- Portfolio Modal - Image2-->
+                                    <img class="img-fluid mb-5" src="assets/img/portfolio/netflix.jpg" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <button class="btn btn-primary text-uppercase">
+                                        <a href="https://dbwlso811.github.io/NERDY/index.html">link</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase" id="portfolioModal2Label">준비중...</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fce9oyD%2FbtqUnKX7Hz7%2FeONXrnmWFpe88437FaRn0K%2Fimg.jpg" alt="" />
+                                    <!-- Portfolio Modal - Image2-->
+                                    <!-- <img class="img-fluid mb-5" src="assets/img/portfolio/nerdy.jpg" alt="" /> -->
+                                    <!-- Portfolio Modal - Text-->
+                                    <!-- <button class="btn btn-primary text-uppercase">
+                                        <a href="">link</a>
+                                    </button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
